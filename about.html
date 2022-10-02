@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>About Us - Chakra Cards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" class="top-logo" width="125px" alt=""></a> 
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="buy.html">Buy now</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px" alt="">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+            <!-- devas -->
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Devas</h1>
+                    <p>The name denotes "heavenly, divine, anything of excellence".<br>In the earliest Vedic literature, all benevolent supernatural beings are referred to as Deva-Asuras. <br>They are also referred to as Suras and contrasted with their equally powerful but malevolent half-brothers, referred to as the Asuras.</p>
+                </div>
+                <div class="col-2 about">
+                    <img src="images/card-art1.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- astras -->
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Astras</h1>
+                    <p>An Astra is a supernatural weapon, presided over by a specific deity and imbued with spiritual and occult powers that caused its effect or impact. <br>To summon or use an astra required use of a specific incantation or invocation. 
+                    The deity invoked would then endow the weapon with supernatural powers, making it impossible to counter through regular means.</p>
+                </div>
+                <div class="col-2 about">
+                    <img src="images/card-art3.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- asuras -->
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Asuras</h1>
+                    <p>Asuras are a class of beings or power-seeking clans related to the more benevolent Devas. <br>Described as powerful superhuman demigods with good or bad qualities, the asuras battle constantly with the devas. </p>
+                </div>
+                <div class="col-2 about">
+                    <img src="images/card-art2.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios phones.</p>
+                    <div class="app-logo">
+                        <a href="future-work.html"><img src="images/play-store.png" alt=""></a>
+                        <a href="future-work.html"><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Amalgamating mythology with the fun aspect of playing cards.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <a href="future-work.html">
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </a>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Socials</h3>
+                    <a href="future-work.html">
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight== "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+</body>
+</html> 
